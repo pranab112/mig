@@ -56,3 +56,8 @@ content/**/*draft*
 # Temporary files
 tmp/
 temp/
+
+# Deployment files
+/hostinger-deploy/
+deployment.zip
+*.zip
