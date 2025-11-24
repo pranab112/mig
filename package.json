@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "echo 'Static files are automatically generated in out/ directory during build. Use: npm run build'"
+    "export": "echo 'Static files are automatically generated in out/ directory during build. Use: npm run build'",
+    "deploy": "./deploy.sh",
+    "quick-deploy": "npm run build && ./deploy.sh"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.0.0",

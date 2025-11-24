@@ -1,0 +1,49 @@
+name: Build and Deploy to Hostinger
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Build website
+      run: npm run build
+
+    - name: Create deployment archive
+      run: |
+        cd out
+        zip -r ../deployment.zip .
+        cd ..
+
+    - name: Upload deployment artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: deployment-package
+        path: deployment.zip
+        retention-days: 7
+
+    - name: Display deployment instructions
+      run: |
+        echo "✅ Build completed successfully!"
+        echo "📦 Deployment package is ready for download"
+        echo ""
+        echo "Next steps:"
+        echo "1. Download deployment.zip from GitHub Actions artifacts"
+        echo "2. Upload to Hostinger File Manager → public_html"
+        echo "3. Extract and delete the zip"
+        echo ""
+        echo "Your site will be live immediately!"

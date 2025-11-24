@@ -1,0 +1,367 @@
+1:"$Sreact.fragment"
+3:I[90487,["/_next/static/chunks/4fb0469ba778e5c8.js"],"Navbar"]
+4:I[42178,["/_next/static/chunks/68cd0ec586dc663a.js","/_next/static/chunks/6e54fe2bbf6afed8.js"],"default"]
+5:I[11792,["/_next/static/chunks/68cd0ec586dc663a.js","/_next/static/chunks/6e54fe2bbf6afed8.js"],"default"]
+c:I[3786,["/_next/static/chunks/68cd0ec586dc663a.js","/_next/static/chunks/6e54fe2bbf6afed8.js"],"default"]
+:HL["/_next/static/chunks/4c5e86721aeb43f9.css","style"]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:T4f8,{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Workflow Automation & AI Systems",
+  "description": "Custom automation workflows, data scraping systems, and AI agents for growing businesses.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MindIsGear",
+    "url": "https://mindisgear.com"
+  },
+  "serviceType": "Business Process Automation",
+  "areaServed": "Worldwide",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "MindIsGear Services",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "name": "MIG Flow - Workflow Automation",
+        "description": "Custom workflow automation using n8n, Make, and custom integrations."
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "MIG Scout - Data Scraping & Pipelines",
+        "description": "Ethical web scraping and data pipeline development."
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "MIG AI Desk - AI Agents & Chatbots",
+        "description": "Custom AI agents that understand your business context."
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "MIG Learn - Systems Building Academy",
+        "description": "Learn to build automation and AI systems yourself."
+      }
+    ]
+  }
+}0:{"P":null,"b":"Ffit2QpWVS6nPfqlyVXVl","c":["","academy","fullstack-7-days",""],"q":"","i":false,"f":[[["",{"children":["academy",{"children":[["slug","fullstack-7-days","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/4c5e86721aeb43f9.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/4fb0469ba778e5c8.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","children":[["$","head",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"MindIsGear\",\n  \"alternateName\": \"MIG\",\n  \"description\": \"We transform your ideas into working systems — AI automation, data scraping, and intelligent tools for growing businesses.\",\n  \"url\": \"https://mindisgear.com\",\n  \"logo\": \"https://mindisgear.com/logo.png\",\n  \"contactPoint\": {\n    \"@type\": \"ContactPoint\",\n    \"email\": \"hello@mindisgear.com\",\n    \"contactType\": \"customer service\",\n    \"availableLanguage\": \"English\"\n  },\n  \"sameAs\": [\n    \"https://twitter.com/mindisgear\",\n    \"https://linkedin.com/company/mindisgear\",\n    \"https://github.com/mindisgear\"\n  ],\n  \"foundingDate\": \"2024\",\n  \"founder\": {\n    \"@type\": \"Person\",\n    \"name\": \"MindIsGear Founder\"\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressCountry\": \"US\"\n  },\n  \"areaServed\": \"Worldwide\",\n  \"serviceType\": [\n    \"Workflow Automation\",\n    \"Data Scraping\",\n    \"AI Agent Development\",\n    \"Business Process Automation\"\n  ]\n}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],["$","body",null,{"className":"inter_5972bc34-module__OU16Qa__className","children":["$","div",null,{"className":"min-h-screen flex flex-col","children":[["$","$L3",null,{}],["$","main",null,{"className":"flex-grow","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":"$L6"}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],"$L7"]}]}]]}]]}],{"children":["$L8",{"children":["$L9",{"children":["$La",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"S":true}
+d:I[53873,["/_next/static/chunks/4fb0469ba778e5c8.js","/_next/static/chunks/9f224a6af03306fb.js"],""]
+15:I[86456,["/_next/static/chunks/68cd0ec586dc663a.js","/_next/static/chunks/6e54fe2bbf6afed8.js"],"OutletBoundary"]
+16:"$Sreact.suspense"
+18:I[86456,["/_next/static/chunks/68cd0ec586dc663a.js","/_next/static/chunks/6e54fe2bbf6afed8.js"],"ViewportBoundary"]
+1a:I[86456,["/_next/static/chunks/68cd0ec586dc663a.js","/_next/static/chunks/6e54fe2bbf6afed8.js"],"MetadataBoundary"]
+6:["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]
+7:["$","footer",null,{"className":"bg-slate-900","aria-labelledby":"footer-heading","children":[["$","h2",null,{"id":"footer-heading","className":"sr-only","children":"Footer"}],["$","div",null,{"className":"mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32","children":[["$","div",null,{"className":"xl:grid xl:grid-cols-3 xl:gap-8","children":[["$","div",null,{"className":"space-y-8","children":[["$","$Ld",null,{"href":"/","className":"flex items-center space-x-2","children":[["$","div",null,{"className":"flex items-center justify-center w-10 h-10 bg-primary-600 rounded-lg","children":["$","span",null,{"className":"text-white font-bold text-xl","children":"M"}]}],["$","div",null,{"children":[["$","span",null,{"className":"text-xl font-bold text-white","children":"MindIsGear"}],["$","div",null,{"className":"text-xs text-slate-400 font-medium","children":"MIG"}]]}]]}],["$","p",null,{"className":"text-sm leading-6 text-slate-300","children":"Turn your mind into gear. We transform ideas into working systems — from brainwave to bot."}],["$","div",null,{"className":"flex space-x-6","children":[["$","a",null,{"href":"mailto:hello@mindisgear.com","className":"text-slate-400 hover:text-slate-300","children":[["$","span",null,{"className":"sr-only","children":"Email"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"h-6 w-6","children":[["$","rect","18n3k1",{"width":"20","height":"16","x":"2","y":"4","rx":"2"}],["$","path","1ocrg3",{"d":"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"}],"$undefined"]}]]}],["$","a",null,{"href":"#","className":"text-slate-400 hover:text-slate-300","children":[["$","span",null,{"className":"sr-only","children":"Twitter"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"h-6 w-6","children":[["$","path","pff0z6",{"d":"M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"}],"$undefined"]}]]}],["$","a",null,{"href":"#","className":"text-slate-400 hover:text-slate-300","children":[["$","span",null,{"className":"sr-only","children":"GitHub"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"h-6 w-6","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}]]}],["$","a",null,{"href":"#","className":"text-slate-400 hover:text-slate-300","children":[["$","span",null,{"className":"sr-only","children":"LinkedIn"}],["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"h-6 w-6","children":[["$","path","c2jq9f",{"d":"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"}],["$","rect","mk3on5",{"width":"4","height":"12","x":"2","y":"9"}],["$","circle","bt5ra8",{"cx":"4","cy":"4","r":"2"}],"$undefined"]}]]}]]}]]}],["$","div",null,{"className":"mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0","children":[["$","div",null,{"className":"md:grid md:grid-cols-2 md:gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"text-sm font-semibold leading-6 text-white","children":"Navigation"}],["$","ul",null,{"role":"list","className":"mt-6 space-y-4","children":[["$","li","Products",{"children":["$","$Ld",null,{"href":"/products","className":"text-sm leading-6 text-slate-300 hover:text-white transition-colors","children":"Products"}]}],["$","li","Academy",{"children":["$","$Ld",null,{"href":"/academy","className":"text-sm leading-6 text-slate-300 hover:text-white transition-colors","children":"Academy"}]}],["$","li","Blog",{"children":["$","$Ld",null,{"href":"/blog","className":"text-sm leading-6 text-slate-300 hover:text-white transition-colors","children":"Blog"}]}],"$Le","$Lf","$L10"]}]]}],"$L11"]}],"$L12"]}]]}],"$L13"]}]]}]
+8:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+a:["$","$1","c",{"children":["$L14",[["$","script","script-0",{"src":"/_next/static/chunks/9f224a6af03306fb.js","async":true,"nonce":"$undefined"}]],["$","$L15",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]]}]
+b:["$","$1","h",{"children":[null,["$","$L18",null,{"children":"$@19"}],["$","div",null,{"hidden":true,"children":["$","$L1a",null,{"children":["$","$16",null,{"name":"Next.Metadata","children":"$@1b"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+e:["$","li","Resources",{"children":["$","$Ld",null,{"href":"/resources","className":"text-sm leading-6 text-slate-300 hover:text-white transition-colors","children":"Resources"}]}]
+f:["$","li","About",{"children":["$","$Ld",null,{"href":"/about","className":"text-sm leading-6 text-slate-300 hover:text-white transition-colors","children":"About"}]}]
+10:["$","li","Contact",{"children":["$","$Ld",null,{"href":"/contact","className":"text-sm leading-6 text-slate-300 hover:text-white transition-colors","children":"Contact"}]}]
+11:["$","div",null,{"className":"mt-10 md:mt-0","children":[["$","h3",null,{"className":"text-sm font-semibold leading-6 text-white","children":"Products"}],["$","ul",null,{"role":"list","className":"mt-6 space-y-4","children":[["$","li","MIG Flow",{"children":["$","$Ld",null,{"href":"/products/mig-flow","className":"text-sm leading-6 text-slate-300 hover:text-white transition-colors","children":"MIG Flow"}]}],["$","li","MIG Scout",{"children":["$","$Ld",null,{"href":"/products/mig-scout","className":"text-sm leading-6 text-slate-300 hover:text-white transition-colors","children":"MIG Scout"}]}],["$","li","MIG AI Desk",{"children":["$","$Ld",null,{"href":"/products/mig-ai-desk","className":"text-sm leading-6 text-slate-300 hover:text-white transition-colors","children":"MIG AI Desk"}]}],["$","li","MIG Social",{"children":["$","$Ld",null,{"href":"/products/mig-social","className":"text-sm leading-6 text-slate-300 hover:text-white transition-colors","children":"MIG Social"}]}]]}]]}]
+12:["$","div",null,{"className":"md:grid md:grid-cols-2 md:gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"text-sm font-semibold leading-6 text-white","children":"Contact"}],["$","div",null,{"className":"mt-6 space-y-4","children":[["$","div",null,{"className":"text-sm text-slate-300","children":["$","p",null,{"children":"Email: hello@mindisgear.com"}]}],["$","div",null,{"className":"text-sm text-slate-300","children":["$","p",null,{"children":"Quick chat: Send us a voice note or loom"}]}]]}]]}],["$","div",null,{"className":"mt-10 md:mt-0","children":[["$","h3",null,{"className":"text-sm font-semibold leading-6 text-white","children":"Learn"}],["$","div",null,{"className":"mt-6 space-y-4","children":[["$","$Ld",null,{"href":"/academy","className":"block text-sm leading-6 text-slate-300 hover:text-white transition-colors","children":"Academy"}],["$","$Ld",null,{"href":"/blog","className":"block text-sm leading-6 text-slate-300 hover:text-white transition-colors","children":"Blog"}],["$","$Ld",null,{"href":"/resources","className":"block text-sm leading-6 text-slate-300 hover:text-white transition-colors","children":"Resources"}]]}]]}]]}]
+13:["$","div",null,{"className":"mt-16 border-t border-slate-700 pt-8 sm:mt-20 lg:mt-24","children":["$","div",null,{"className":"md:flex md:items-center md:justify-between","children":[["$","div",null,{"className":"flex space-x-6 md:order-2","children":[["$","$Ld","Privacy Policy",{"href":"/privacy","className":"text-sm leading-6 text-slate-400 hover:text-slate-300 transition-colors","children":"Privacy Policy"}],["$","$Ld","Terms of Service",{"href":"/terms","className":"text-sm leading-6 text-slate-400 hover:text-slate-300 transition-colors","children":"Terms of Service"}]]}],["$","p",null,{"className":"mt-8 text-xs leading-5 text-slate-400 md:order-1 md:mt-0","children":"© 2024 MindIsGear. All rights reserved. Built with Next.js and Tailwind CSS."}]]}]}]
+14:["$","div",null,{"className":"min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50","children":[["$","div",null,{"className":"bg-gradient-to-r from-primary-600 via-primary-700 to-primary-800 text-white","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 py-16","children":[["$","$Ld",null,{"href":"/academy","className":"inline-flex items-center gap-2 text-primary-100 hover:text-white mb-8 transition-colors","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-5 h-5","children":[["$","path","1l729n",{"d":"m12 19-7-7 7-7"}],["$","path","x3x0zl",{"d":"M19 12H5"}],"$undefined"]}],"Back to Academy"]}],["$","div",null,{"className":"grid lg:grid-cols-2 gap-12 items-center","children":[["$","div",null,{"children":[["$","div",null,{"className":"flex items-center gap-3 mb-4","children":[["$","div",null,{"className":"px-4 py-2 bg-white/20 rounded-full","children":["$","span",null,{"className":"text-sm font-semibold","children":"🤖 AI-Powered Course"}]}],["$","div",null,{"className":"px-4 py-2 bg-white/20 rounded-full","children":["$","span",null,{"className":"text-sm font-semibold","children":"Live Online"}]}]]}],["$","h1",null,{"className":"text-4xl lg:text-6xl font-bold mb-6 leading-tight","children":"Full Stack Development Using Claude AI"}],["$","p",null,{"className":"text-xl text-primary-100 mb-8 leading-relaxed","children":"Master AI-powered full-stack web development from backend to frontend with Claude AI as your coding partner"}],["$","div",null,{"className":"grid grid-cols-2 md:grid-cols-4 gap-6","children":[["$","div",null,{"className":"text-center","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-8 h-8 mx-auto mb-2 text-primary-200","children":[["$","rect","eu3xkr",{"width":"18","height":"18","x":"3","y":"4","rx":"2","ry":"2"}],["$","line","m3sa8f",{"x1":"16","x2":"16","y1":"2","y2":"6"}],["$","line","18kwsl",{"x1":"8","x2":"8","y1":"2","y2":"6"}],["$","line","xt86sb",{"x1":"3","x2":"21","y1":"10","y2":"10"}],"$undefined"]}],["$","div",null,{"className":"text-2xl font-bold","children":"7 days"}],["$","div",null,{"className":"text-primary-200 text-sm","children":"Duration"}]]}],["$","div",null,{"className":"text-center","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-8 h-8 mx-auto mb-2 text-primary-200","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],["$","div",null,{"className":"text-2xl font-bold","children":"2hrs"}],["$","div",null,{"className":"text-primary-200 text-sm","children":"Daily"}]]}],["$","div",null,{"className":"text-center","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-8 h-8 mx-auto mb-2 text-primary-200","children":[["$","path","1yyitq",{"d":"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"}],["$","circle","nufk8",{"cx":"9","cy":"7","r":"4"}],["$","path","kshegd",{"d":"M22 21v-2a4 4 0 0 0-3-3.87"}],["$","path","1da9ce",{"d":"M16 3.13a4 4 0 0 1 0 7.75"}],"$undefined"]}],["$","div",null,{"className":"text-2xl font-bold","children":30}],["$","div",null,{"className":"text-primary-200 text-sm","children":"Max Students"}]]}],["$","div",null,{"className":"text-center","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-8 h-8 mx-auto mb-2 text-primary-200","children":[["$","path","17hqa7",{"d":"M6 9H4.5a2.5 2.5 0 0 1 0-5H6"}],["$","path","lmptdp",{"d":"M18 9h1.5a2.5 2.5 0 0 0 0-5H18"}],["$","path","57wxv0",{"d":"M4 22h16"}],["$","path","1nw9bq",{"d":"M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"}],["$","path","1np0yb",{"d":"M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"}],["$","path","u46fv3",{"d":"M18 2H6v7a6 6 0 0 0 12 0V2Z"}],"$undefined"]}],"$L1c","$L1d"]}]]}]]}],"$L1e"]}]]}]}],"$L1f"]}]
+20:I[17738,["/_next/static/chunks/4fb0469ba778e5c8.js","/_next/static/chunks/9f224a6af03306fb.js"],"default"]
+1c:["$","div",null,{"className":"text-2xl font-bold","children":["NPR ","25,000"]}]
+1d:["$","div",null,{"className":"text-primary-200 text-sm","children":"Investment"}]
+1e:["$","div",null,{"className":"bg-white/10 backdrop-blur-sm rounded-2xl p-8","children":[["$","h3",null,{"className":"text-2xl font-bold mb-6","children":"🚀 What Makes This Special"}],["$","div",null,{"className":"space-y-4","children":[["$","div",null,{"className":"flex items-center gap-3","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-6 h-6 text-primary-200","children":[["$","path","1mhkh5",{"d":"M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"}],["$","path","1d6s00",{"d":"M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"}],"$undefined"]}],["$","span",null,{"children":"AI Pair Programming Mastery"}]]}],["$","div",null,{"className":"flex items-center gap-3","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-6 h-6 text-primary-200","children":[["$","polygon","45s27k",{"points":"13 2 3 14 12 14 11 22 21 10 12 10 13 2"}],"$undefined"]}],["$","span",null,{"children":"3x Faster Development"}]]}],["$","div",null,{"className":"flex items-center gap-3","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-6 h-6 text-primary-200","children":[["$","polyline","z7tu5w",{"points":"16 18 22 12 16 6"}],["$","polyline","1eg1df",{"points":"8 6 2 12 8 18"}],"$undefined"]}],["$","span",null,{"children":"Production SaaS Project"}]]}],["$","div",null,{"className":"flex items-center gap-3","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-6 h-6 text-primary-200","children":[["$","polygon","8f66p6",{"points":"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"}],"$undefined"]}],["$","span",null,{"children":"Portfolio-Ready Application"}]]}]]}],["$","div",null,{"className":"mt-8 pt-6 border-t border-white/20","children":[["$","div",null,{"className":"flex items-center justify-between text-sm","children":[["$","span",null,{"className":"text-primary-200","children":"Enrollment"}],["$","span",null,{"children":[23,"/",30," enrolled"]}]]}],["$","div",null,{"className":"w-full bg-white/20 rounded-full h-2 mt-2","children":["$","div",null,{"className":"bg-white rounded-full h-2 transition-all","style":{"width":"76.66666666666667%"}}]}]]}]]}]
+21:T20fc,## 📅 7-Day Detailed Curriculum
+
+### **📋 Daily Session Structure (2 hours)**
+- **🤖 AI Collaboration Workshop** (20 min) - Live Claude prompting demonstration
+- **📚 Theory & Concepts** (40 min) - Core development principles
+- **⚡ Guided AI-Assisted Build** (50 min) - Hands-on development with Claude
+- **🔍 Review & Optimization** (10 min) - Code review and best practices
+
+---
+
+## **Day 1: Foundation & AI Partnership**
+### **🎯 Learning Objectives**
+- Master effective Claude collaboration for development tasks
+- Set up professional development environment
+- Build foundation Node.js/Express server
+- Understand AI-assisted development workflow
+
+### **🤖 AI Collaboration Skills**
+- **Prompt Engineering for Developers**: Crafting effective development requests
+- **Code Generation Best Practices**: When and how to use AI for code creation
+- **AI Quality Assessment**: Evaluating and improving AI-generated code
+- **Development Environment Setup**: Using Claude for configuration guidance
+
+### **🛠️ Technical Implementation**
+- **Environment Setup**: Node.js, VS Code, Git configuration with Claude guidance
+- **Project Architecture**: AI-assisted project structure planning
+- **Express Server**: Basic server setup with middleware
+- **API Foundation**: First endpoint creation and testing
+
+### **📝 Deliverables**
+- Configured development environment
+- Basic Express server with health check endpoint
+- AI collaboration workflow established
+- Personal prompt library started
+
+---
+
+## **Day 2: Backend Architecture & AI Planning**
+### **🎯 Learning Objectives**
+- Use Claude for system architecture and API design
+- Implement database design with AI assistance
+- Create RESTful API endpoints
+- Establish data validation patterns
+
+### **🤖 AI Collaboration Skills**
+- **System Architecture Planning**: Using Claude for scalable design decisions
+- **Database Schema Design**: AI-assisted data modeling and relationships
+- **API Design Patterns**: REST principles with AI optimization
+- **Code Structure Analysis**: Using AI for maintainable code organization
+
+### **🛠️ Technical Implementation**
+- **Database Setup**: Supabase integration with AI-designed schema
+- **Data Models**: User, Task, Project, and Team entities
+- **CRUD Operations**: Complete API endpoints for all entities
+- **Data Validation**: Input sanitization and error handling
+- **API Documentation**: Auto-generated docs with AI assistance
+
+### **📝 Deliverables**
+- Complete database schema with relationships
+- Full CRUD API for core entities
+- Comprehensive API documentation
+- Data validation and error handling system
+
+---
+
+## **Day 3: Authentication & AI Security Review**
+### **🎯 Learning Objectives**
+- Implement secure authentication with AI guidance
+- Use Claude for security best practices and code review
+- Understand JWT tokens and session management
+- Apply AI-enhanced security patterns
+
+### **🤖 AI Collaboration Skills**
+- **Security Code Review**: Using Claude for vulnerability assessment
+- **Best Practices Research**: AI-assisted security pattern discovery
+- **Threat Modeling**: Collaborative security risk analysis
+- **Security Testing**: AI-guided penetration testing approaches
+
+### **🛠️ Technical Implementation**
+- **JWT Authentication**: Token generation and validation
+- **Password Security**: Hashing, salting, and strength validation
+- **Protected Routes**: Middleware for authentication checks
+- **User Sessions**: Login/logout functionality
+- **Security Headers**: CORS, rate limiting, and security middleware
+- **Authorization Levels**: Role-based access control
+
+### **📝 Deliverables**
+- Complete authentication system
+- Secure password management
+- Protected API endpoints
+- Security audit checklist completed
+
+---
+
+## **Day 4: Advanced Backend & AI Optimization**
+### **🎯 Learning Objectives**
+- Implement file uploads and email integration
+- Use Claude for performance analysis and optimization
+- Create comprehensive API documentation
+- Apply advanced backend patterns
+
+### **🤖 AI Collaboration Skills**
+- **Performance Optimization**: AI-guided code efficiency improvements
+- **Integration Planning**: Using Claude for third-party service integration
+- **API Documentation**: AI-assisted comprehensive documentation creation
+- **Error Handling**: Robust error management patterns
+
+### **🛠️ Technical Implementation**
+- **File Upload System**: Secure file handling and cloud storage
+- **Email Integration**: Notification system with templates
+- **Background Jobs**: Queue system for async processing
+- **API Versioning**: Future-proof API design
+- **Performance Monitoring**: Logging and analytics setup
+- **Comprehensive Testing**: Unit and integration tests
+
+### **📝 Deliverables**
+- File upload and management system
+- Email notification infrastructure
+- Background job processing
+- Complete API documentation with examples
+
+---
+
+## **Day 5: Frontend Foundation & AI-Driven UI**
+### **🎯 Learning Objectives**
+- Master React fundamentals with AI assistance
+- Use Claude for component architecture and UI/UX decisions
+- Implement authentication UI and routing
+- Create responsive design patterns
+
+### **🤖 AI Collaboration Skills**
+- **Component Architecture**: AI-assisted React component design
+- **UI/UX Optimization**: Using Claude for user experience improvements
+- **Responsive Design**: AI-guided mobile-first development
+- **Accessibility Enhancement**: AI-powered accessibility auditing
+
+### **🛠️ Technical Implementation**
+- **React App Setup**: Vite configuration with TypeScript
+- **UI Framework**: Tailwind CSS integration and component library
+- **Authentication UI**: Login, register, and profile management
+- **Routing System**: React Router with protected routes
+- **State Management**: Context API and custom hooks
+- **API Integration**: Axios setup with error handling
+
+### **📝 Deliverables**
+- Complete React application foundation
+- Authentication user interface
+- Responsive design system
+- API integration layer
+
+---
+
+## **Day 6: Advanced Frontend & AI-Enhanced UX**
+### **🎯 Learning Objectives**
+- Build complete task management interface
+- Implement real-time features with AI guidance
+- Create advanced UI patterns and interactions
+- Optimize user experience with AI insights
+
+### **🤖 AI Collaboration Skills**
+- **UX Analysis**: Using Claude for user journey optimization
+- **Component Optimization**: AI-assisted performance improvements
+- **Real-time Integration**: WebSocket implementation with AI guidance
+- **User Feedback Integration**: AI-powered usability improvements
+
+### **🛠️ Technical Implementation**
+- **Task Management UI**: Create, edit, organize tasks with drag-and-drop
+- **Dashboard Design**: Analytics and productivity insights
+- **Real-time Features**: Live updates and collaboration
+- **Advanced Components**: Data tables, charts, and interactive elements
+- **Form Management**: Complex forms with validation
+- **Mobile Optimization**: Touch-friendly interactions
+
+### **📝 Deliverables**
+- Complete task management interface
+- Real-time collaboration features
+- Analytics dashboard
+- Mobile-optimized user experience
+
+---
+
+## **Day 7: Integration, Testing & AI-Powered Deployment**
+### **🎯 Learning Objectives**
+- Complete full application integration
+- Use Claude for testing strategies and debugging
+- Deploy to production with AI-optimized configuration
+- Implement monitoring and performance optimization
+
+### **🤖 AI Collaboration Skills**
+- **Testing Strategy**: AI-guided test case generation and coverage analysis
+- **Debugging Workflow**: Using Claude for systematic problem-solving
+- **Deployment Optimization**: AI-assisted production configuration
+- **Performance Monitoring**: AI-enhanced analytics and optimization
+
+### **🛠️ Technical Implementation**
+- **Full Integration Testing**: End-to-end application testing
+- **Performance Optimization**: Code splitting, lazy loading, caching
+- **Production Deployment**:
+  - Backend: Railway/Render with environment configuration
+  - Frontend: Vercel/Netlify with CI/CD pipeline
+  - Database: Production Supabase setup
+- **Monitoring Setup**: Error tracking, performance monitoring, analytics
+- **Security Audit**: Final security review and hardening
+
+### **📝 Deliverables**
+- Fully deployed production application
+- Comprehensive test suite
+- Performance monitoring dashboard
+- Portfolio-ready project documentation
+
+---
+
+22:T445,## 🎓 Learning Outcomes & Certification
+
+### **Technical Skills Mastered**
+- ✅ Full-stack web development (Node.js/Express + React)
+- ✅ Database design and API development
+- ✅ Authentication and security implementation
+- ✅ Real-time features and WebSocket integration
+- ✅ Production deployment and DevOps basics
+- ✅ Testing and quality assurance
+
+### **AI Collaboration Skills Mastered**
+- ✅ Expert-level prompt engineering for development
+- ✅ AI-assisted code review and optimization
+- ✅ Collaborative debugging and problem-solving
+- ✅ AI-enhanced architecture and design decisions
+- ✅ Quality assessment of AI-generated code
+- ✅ Future-proof AI development workflows
+
+### **Portfolio Achievements**
+- 🏆 **Production SaaS Application**: Fully deployed TaskFlow AI platform
+- 📚 **AI Collaboration Portfolio**: Documented prompts and workflows
+- 🔧 **Technical Documentation**: Comprehensive project documentation
+- 📈 **Performance Metrics**: Analytics and optimization results
+- 🛡️ **Security Certification**: Security audit and compliance checklist
+
+23:T473,## 🎯 Course Vision & Unique Value Proposition
+
+**Revolutionary Approach**: This isn't just a coding bootcamp—it's the first AI-first development intensive where students learn to build production-ready applications 3x faster by mastering AI collaboration.
+
+### **What Makes This Different:**
+- **AI Pair Programming Mastery**: Claude becomes your senior developer partner
+- **Accelerated Development**: Build in days what traditionally takes weeks
+- **Future-Proof Skills**: Prepare for the AI-first development landscape
+- **Quality-First**: AI-enhanced code review and best practices
+- **Portfolio Impact**: Graduate with a production SaaS application
+
+## 🏗️ Project: "TaskFlow AI" - Your Portfolio SaaS Platform
+
+Students build a complete **AI-powered productivity platform** featuring:
+
+- ✅ **User Authentication & Profiles**
+- 🤖 **AI-Powered Task Categorization & Prioritization**
+- 👥 **Real-time Collaboration Features**
+- 📊 **Analytics Dashboard**
+- 📎 **File Attachments & Smart Notes**
+- 📧 **Intelligent Email Notifications**
+- 📱 **Mobile-Responsive Design**
+- ☁️ **Production Cloud Deployment**
+
+24:T6b5,## 💰 Investment & Value
+
+### **Course Investment: NPR 25,000 + Claude AI Subscription**
+- **Live Interactive Sessions**: 7 days × 2 hours = 14 hours of expert instruction
+- **Unlimited Recording Access**: 12 months of replay availability
+- **Private Community**: Discord server with ongoing support
+- **Portfolio Project**: Production-ready application worth ₹50,000+ in freelance value
+- **AI Skills Premium**: AI collaboration skills command 40-60% salary premiums
+- **Career Acceleration**: Skills that typically take 6-12 months, learned in 7 days
+
+### **ROI Calculation:**
+- **Freelance Project Value**: ₹50,000-₹100,000 (TaskFlow AI app)
+- **Salary Increase Potential**: 40-60% premium for AI-skilled developers
+- **Time Saved**: 6-12 months of traditional learning condensed to 7 days
+- **Future Opportunities**: Access to AI-first development roles
+
+### **100% Satisfaction Guarantee**
+Not satisfied after Day 1? Get a full refund, no questions asked.
+
+<div className="bg-gradient-to-r from-primary-600 to-primary-700 text-white p-8 rounded-xl mt-8">
+  <h3 className="text-2xl font-bold mb-4">Ready to become a full-stack developer?</h3>
+  <p className="text-primary-100 mb-6">Join our next cohort and build your first production application in just 7 days.</p>
+  <div className="flex flex-col sm:flex-row gap-4">
+    <a href="/contact" className="bg-white text-primary-600 px-6 py-3 rounded-lg font-semibold text-center hover:bg-slate-50 transition-colors">
+      Enroll Now - NPR 25,000
+    </a>
+    <a href="/contact" className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold text-center hover:bg-white/10 transition-colors">
+      Schedule Info Call
+    </a>
+  </div>
+</div>1f:["$","div",null,{"className":"max-w-6xl mx-auto px-4 py-8","children":["$","div",null,{"className":"flex gap-12","children":[["$","div",null,{"className":"flex-1","children":[["$","$L20",null,{"renderedSections":{"overview":"\n# Full Stack Development Using Claude AI\n\n## Course Overview\n\nBuild a complete web application from scratch in just 7 days using Claude AI as your development partner. This intensive, live online course leverages AI-powered coding to accelerate your learning, starting with backend fundamentals and progressing to modern frontend development with Claude's assistance.\n\n**Perfect for:** Developers wanting to learn full-stack development, entrepreneurs building their own products, and anyone looking to understand the complete web development process.\n\n","curriculum":"$21","outcomes":"$22","audience":"$23","investment":"$24"}}],"$L25"]}],"$L26"]}]}]
+25:["$","div",null,{"className":"mt-16 bg-gradient-to-r from-primary-600 to-primary-700 text-white rounded-3xl p-8 lg:p-12 text-center","children":["$","div",null,{"className":"max-w-2xl mx-auto","children":[["$","h3",null,{"className":"text-2xl lg:text-3xl font-bold mb-4","children":"Transform Your Career in 7 Days"}],["$","p",null,{"className":"text-lg lg:text-xl text-primary-100 mb-8","children":"Join the AI-first development revolution. Build production applications faster than ever before."}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-4 justify-center mb-8","children":[["$","$Ld",null,{"href":"/contact","className":"inline-flex items-center justify-center gap-2 bg-white text-primary-600 px-6 lg:px-8 py-3 lg:py-4 rounded-xl font-bold text-base lg:text-lg hover:bg-slate-50 transition-colors","children":["Start Your Journey - NPR ","25,000",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-5 h-5 lg:w-6 lg:h-6","children":[["$","path","m3kijz",{"d":"M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"}],["$","path","1fmvmk",{"d":"m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"}],["$","path","1f8sc4",{"d":"M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"}],["$","path","qeys4",{"d":"M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"}],"$undefined"]}]]}],["$","$Ld",null,{"href":"/contact","className":"inline-flex items-center justify-center gap-2 border-2 border-white text-white px-6 lg:px-8 py-3 lg:py-4 rounded-xl font-semibold text-base lg:text-lg hover:bg-white/10 transition-colors","children":["Schedule Info Call",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-5 h-5 lg:w-6 lg:h-6","children":[["$","rect","eu3xkr",{"width":"18","height":"18","x":"3","y":"4","rx":"2","ry":"2"}],["$","line","m3sa8f",{"x1":"16","x2":"16","y1":"2","y2":"6"}],["$","line","18kwsl",{"x1":"8","x2":"8","y1":"2","y2":"6"}],["$","line","xt86sb",{"x1":"3","x2":"21","y1":"10","y2":"10"}],"$undefined"]}]]}]]}],["$","div",null,{"className":"text-sm text-primary-200","children":["💯 100% Satisfaction Guarantee • Limited Time Pricing • ",7," Spots Left"]}]]}]}]
+26:["$","div",null,{"className":"w-80 hidden xl:block","children":["$","div",null,{"className":"sticky top-8 space-y-6","children":[["$","div",null,{"className":"bg-white rounded-2xl p-6 shadow-lg border border-slate-200","children":[["$","h4",null,{"className":"font-bold text-slate-900 mb-4","children":"Course Overview"}],["$","div",null,{"className":"space-y-3","children":[["$","div",null,{"className":"flex items-center justify-between","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-4 h-4 text-slate-500","children":[["$","rect","eu3xkr",{"width":"18","height":"18","x":"3","y":"4","rx":"2","ry":"2"}],["$","line","m3sa8f",{"x1":"16","x2":"16","y1":"2","y2":"6"}],["$","line","18kwsl",{"x1":"8","x2":"8","y1":"2","y2":"6"}],["$","line","xt86sb",{"x1":"3","x2":"21","y1":"10","y2":"10"}],"$undefined"]}],["$","span",null,{"className":"text-sm text-slate-600","children":"Duration"}]]}],["$","span",null,{"className":"font-semibold","children":"7 days"}]]}],["$","div",null,{"className":"flex items-center justify-between","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-4 h-4 text-slate-500","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],["$","span",null,{"className":"text-sm text-slate-600","children":"Daily Time"}]]}],["$","span",null,{"className":"font-semibold","children":"2 hours"}]]}],["$","div",null,{"className":"flex items-center justify-between","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-4 h-4 text-slate-500","children":[["$","path","1yyitq",{"d":"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"}],["$","circle","nufk8",{"cx":"9","cy":"7","r":"4"}],["$","path","kshegd",{"d":"M22 21v-2a4 4 0 0 0-3-3.87"}],["$","path","1da9ce",{"d":"M16 3.13a4 4 0 0 1 0 7.75"}],"$undefined"]}],["$","span",null,{"className":"text-sm text-slate-600","children":"Class Size"}]]}],["$","span",null,{"className":"font-semibold","children":["Max ",30]}]]}],["$","div",null,{"className":"flex items-center justify-between","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-4 h-4 text-slate-500","children":[["$","path","17hqa7",{"d":"M6 9H4.5a2.5 2.5 0 0 1 0-5H6"}],["$","path","lmptdp",{"d":"M18 9h1.5a2.5 2.5 0 0 0 0-5H18"}],["$","path","57wxv0",{"d":"M4 22h16"}],["$","path","1nw9bq",{"d":"M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"}],["$","path","1np0yb",{"d":"M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"}],["$","path","u46fv3",{"d":"M18 2H6v7a6 6 0 0 0 12 0V2Z"}],"$undefined"]}],["$","span",null,{"className":"text-sm text-slate-600","children":"Investment"}]]}],["$","span",null,{"className":"font-semibold","children":["NPR ","25,000"]}]]}]]}],["$","div",null,{"className":"mt-6 pt-4 border-t border-slate-200","children":[["$","div",null,{"className":"flex items-center justify-between text-sm mb-2","children":[["$","span",null,{"className":"text-slate-600","children":"Enrollment Progress"}],["$","span",null,{"className":"font-semibold","children":[77,"% full"]}]]}],["$","div",null,{"className":"w-full bg-slate-200 rounded-full h-2","children":["$","div",null,{"className":"bg-gradient-to-r from-primary-500 to-primary-600 rounded-full h-2 transition-all","style":{"width":"76.66666666666667%"}}]}],["$","div",null,{"className":"text-xs text-slate-500 mt-2","children":[7," spots remaining"]}]]}]]}],["$","div",null,{"className":"bg-gradient-to-r from-primary-600 to-primary-700 text-white p-6 rounded-2xl","children":[["$","h4",null,{"className":"font-bold mb-2","children":"Ready to Start?"}],["$","p",null,{"className":"text-primary-100 text-sm mb-4","children":"Secure your spot in the next cohort starting December 2nd."}],"$L27"]}],"$L28"]}]}]
+27:["$","$Ld",null,{"href":"/contact","className":"inline-flex items-center justify-center gap-2 bg-white text-primary-600 px-4 py-3 rounded-lg font-semibold text-sm hover:bg-slate-50 transition-colors w-full","children":["Enroll Now",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-4 h-4","children":[["$","path","mthhwq",{"d":"m9 18 6-6-6-6"}],"$undefined"]}]]}]
+28:["$","div",null,{"className":"bg-white rounded-2xl p-6 shadow-lg border border-slate-200","children":[["$","h4",null,{"className":"font-bold text-slate-900 mb-4","children":"🎯 Key Benefits"}],["$","div",null,{"className":"space-y-3","children":[["$","div",null,{"className":"flex items-center gap-3 text-sm","children":[["$","div",null,{"className":"w-6 h-6 bg-green-100 rounded-full flex items-center justify-center","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-4 h-4 text-green-600","children":[["$","path","g774vq",{"d":"M22 11.08V12a10 10 0 1 1-5.93-9.14"}],["$","path","1pflzl",{"d":"m9 11 3 3L22 4"}],"$undefined"]}]}],["$","span",null,{"className":"text-slate-700","children":"Build production SaaS app"}]]}],["$","div",null,{"className":"flex items-center gap-3 text-sm","children":[["$","div",null,{"className":"w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-4 h-4 text-blue-600","children":[["$","path","1mhkh5",{"d":"M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"}],["$","path","1d6s00",{"d":"M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"}],"$undefined"]}]}],["$","span",null,{"className":"text-slate-700","children":"Master AI-assisted coding"}]]}],["$","div",null,{"className":"flex items-center gap-3 text-sm","children":[["$","div",null,{"className":"w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-4 h-4 text-purple-600","children":[["$","polygon","45s27k",{"points":"13 2 3 14 12 14 11 22 21 10 12 10 13 2"}],"$undefined"]}]}],["$","span",null,{"className":"text-slate-700","children":"3x faster development"}]]}],["$","div",null,{"className":"flex items-center gap-3 text-sm","children":[["$","div",null,{"className":"w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"w-4 h-4 text-orange-600","children":[["$","polygon","8f66p6",{"points":"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"}],"$undefined"]}]}],["$","span",null,{"className":"text-slate-700","children":"Portfolio-worthy project"}]]}]]}]]}]
+19:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1b:[["$","title","0",{"children":"Full Stack Development Using Claude AI - MIG Learn Academy"}],["$","meta","1",{"name":"description","content":"Master AI-powered full-stack web development from backend to frontend with Claude AI as your coding partner"}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"name":"keywords","content":"automation, AI, data scraping, workflow automation, business tools, n8n, make, zapier"}],["$","meta","4",{"name":"creator","content":"MindIsGear"}],["$","meta","5",{"name":"publisher","content":"MindIsGear"}],["$","meta","6",{"name":"robots","content":"index, follow"}],["$","meta","7",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","8",{"rel":"canonical","href":"https://mindisgear.com/"}],["$","meta","9",{"property":"og:title","content":"MindIsGear - Turn your mind into gear"}],["$","meta","10",{"property":"og:description","content":"We transform your ideas into working systems — AI automation, data scraping, and intelligent tools for growing businesses."}],["$","meta","11",{"property":"og:url","content":"https://mindisgear.com/"}],["$","meta","12",{"property":"og:site_name","content":"MindIsGear"}],["$","meta","13",{"property":"og:locale","content":"en_US"}],["$","meta","14",{"property":"og:image","content":"https://mindisgear.com/og-image.jpg"}],["$","meta","15",{"property":"og:image:width","content":"1200"}],["$","meta","16",{"property":"og:image:height","content":"630"}],["$","meta","17",{"property":"og:image:alt","content":"MindIsGear - Turn your mind into gear"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:site","content":"@mindisgear"}],["$","meta","21",{"name":"twitter:creator","content":"@mindisgear"}],["$","meta","22",{"name":"twitter:title","content":"MindIsGear - Turn your mind into gear"}],["$","meta","23",{"name":"twitter:description","content":"We transform your ideas into working systems — AI automation, data scraping, and intelligent tools for growing businesses."}],["$","meta","24",{"name":"twitter:image","content":"https://mindisgear.com/og-image.jpg"}]]
+17:null

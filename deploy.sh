@@ -1,42 +1,52 @@
 #!/bin/bash
 
-# 🚀 Hostinger Deployment Script for MindIsGear Academy
-# This script builds your website and prepares it for upload to Hostinger
+# 🚀 AA.MIG Easy Deployment Script
+# This script builds and prepares your site for Hostinger deployment
 
-echo "🔄 Starting deployment preparation..."
+echo "🚀 Starting AA.MIG Deployment Process..."
+echo "======================================"
 
-# Step 1: Clean previous builds
-echo "🧹 Cleaning previous builds..."
-rm -rf .next out
-
-# Step 2: Install dependencies
+# Step 1: Install dependencies
 echo "📦 Installing dependencies..."
 npm install
 
-# Step 3: Build the application
-echo "🏗️ Building application for production..."
+# Step 2: Build the project
+echo "🔨 Building production site..."
 npm run build
 
-# Step 4: Verify build
-if [ -d "out" ]; then
-    echo "✅ Build successful! Files are ready in the 'out' directory."
-    echo ""
-    echo "📊 Build Summary:"
-    echo "📁 Total files: $(find out -type f | wc -l | xargs)"
-    echo "📁 Directory size: $(du -sh out | cut -f1)"
-    echo ""
-    echo "📋 Next Steps for Hostinger Deployment:"
-    echo "1. Go to your Hostinger control panel (hpanel.hostinger.com)"
-    echo "2. Open File Manager and navigate to public_html"
-    echo "3. Delete all existing files in public_html (backup first if needed)"
-    echo "4. Upload ALL contents of the 'out' directory to public_html"
-    echo "5. Your website will be live at your domain!"
-    echo ""
-    echo "📁 Important files to upload:"
-    ls -la out/ | head -10
-    echo ""
-    echo "🎉 Deployment package ready!"
-else
-    echo "❌ Build failed! Please check the errors above."
-    exit 1
+# Step 3: Create deployment package
+echo "📁 Creating deployment package..."
+rm -rf hostinger-deploy
+mkdir -p hostinger-deploy
+
+# Copy all built files to deployment folder
+cp -r out/* hostinger-deploy/
+cp .htaccess hostinger-deploy/ 2>/dev/null || echo "⚠️  .htaccess not found, skipping..."
+
+# Step 4: Create a ZIP file for easy upload
+echo "🗜️  Creating deployment.zip..."
+cd hostinger-deploy
+zip -r ../deployment.zip . -q
+cd ..
+
+# Step 5: Display deployment info
+echo ""
+echo "✅ Deployment package ready!"
+echo "======================================"
+echo "📦 Files prepared in: hostinger-deploy/"
+echo "🗜️  ZIP file created: deployment.zip"
+echo ""
+echo "📋 Next Steps:"
+echo "1. Go to Hostinger File Manager"
+echo "2. Navigate to public_html"
+echo "3. Upload deployment.zip"
+echo "4. Extract the ZIP file"
+echo "5. Delete the ZIP file after extraction"
+echo ""
+echo "🎉 Your site will be live immediately!"
+echo "======================================"
+
+# Optional: Open Finder to show the files
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    open hostinger-deploy/
 fi
