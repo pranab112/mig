@@ -1,0 +1,19 @@
+import { MetadataRoute } from 'next'
+
+export const dynamic = 'force-static'
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: 'MindIsGear - Turn your mind into gear',
+    short_name: 'MindIsGear',
+    description: 'We transform your ideas into working systems — AI automation, data scraping, and intelligent tools for growing businesses.',
+    start_url: '/',
+    display: 'standalone',
+    background_color: '#ffffff',
+    theme_color: '#0ea5e9',
+    icons: [],
+    categories: ['business', 'productivity', 'automation'],
+    lang: 'en',
+    orientation: 'portrait-primary',
+  }
+}

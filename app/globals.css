@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-slate-200;
+  }
+
+  body {
+    @apply bg-white text-slate-900 font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-slate-900;
+  }
+
+  p {
+    @apply text-slate-700 leading-relaxed;
+  }
+}
+
+@layer components {
+  .prose-mig {
+    @apply prose prose-slate max-w-none;
+  }
+
+  .prose-mig h1 {
+    @apply text-3xl font-bold mb-6 text-slate-900;
+  }
+
+  .prose-mig h2 {
+    @apply text-2xl font-semibold mb-4 mt-8 text-slate-900;
+  }
+
+  .prose-mig h3 {
+    @apply text-xl font-semibold mb-3 mt-6 text-slate-800;
+  }
+
+  .prose-mig code {
+    @apply bg-slate-100 text-slate-800 px-1.5 py-0.5 rounded text-sm font-mono;
+  }
+
+  .prose-mig pre {
+    @apply bg-slate-900 text-slate-100 p-4 rounded-lg overflow-x-auto;
+  }
+
+  .prose-mig pre code {
+    @apply bg-transparent text-slate-100 p-0;
+  }
+
+  .prose-mig blockquote {
+    @apply border-l-4 border-primary-500 pl-4 italic text-slate-600;
+  }
+
+  .prose-mig a {
+    @apply text-primary-600 hover:text-primary-700 transition-colors;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

@@ -1,0 +1,402 @@
+You are a senior full-stack engineer, product designer, and brand copywriter in one.
+
+Your job: 
+Help me design and build a complete, production-ready marketing + content site for my brand:
+
+- Brand name: MindIsGear
+- Short handle: MIG
+- Domain: mindisgear.com
+- Core idea: "Mind is gear" → we turn ideas and knowledge into real systems, tools, and automations.
+
+We’ll build this as a modern, clean, fast site with:
+- Product pages for MIG tools
+- A blog/playbook about automation & AI
+- An Academy / resources area
+
+==================================================
+1. PROJECT CONTEXT
+==================================================
+
+Brand meaning:
+- "Mind" = strategy, thinking, knowledge.
+- "Gear" = tools, systems, automation, execution.
+- MindIsGear = “we take what’s in your mind and turn it into working systems.”
+
+What MindIsGear (MIG) does:
+- AI & automation studio specializing in:
+  - workflow automation (n8n/Make/Zapier etc.)
+  - data scraping & data pipelines
+  - AI agents / chatbots (support, internal tools)
+  - micro-SaaS for real businesses (wholesalers, tours, small shops, etc.)
+
+Target audience:
+- Small/medium businesses, agencies, and founders who:
+  - are busy and overwhelmed with manual work
+  - want to automate repetitive tasks and data work
+  - want simple tools, not huge enterprise systems
+- Slightly technical audience as well (developers/founders) who will read blog/academy content.
+
+Tone of voice:
+- Clear, simple, confident.
+- No corporate fluff. Friendly but serious.
+- Less “buzzword AI”, more “we build working systems.”
+
+Some tagline ideas (you can choose the best and refine it):
+- “Turn your mind into gear.”
+- “Your ideas. Our systems.”
+- “From brainwave to bot.”
+Pick one primary tagline and a couple alternates for different sections.
+
+==================================================
+2. TECH & ARCHITECTURE CHOICES
+==================================================
+
+Use this stack:
+
+- Framework: Next.js (latest stable, App Router)
+- Language: TypeScript
+- Styling: Tailwind CSS
+- Content:
+  - Blog posts in MDX or Markdown
+  - Academy lessons/resources in Markdown / MDX or simple JSON/TS data
+- Build: Static site or hybrid (static pages + dynamic blog/MDX)
+- Deployment: Assume Vercel or any Node-capable platform. Provide generic instructions.
+
+Overall goals:
+- Clean, modern, responsive design.
+- Good Lighthouse scores for performance & SEO.
+- Simple enough that a solo dev (me) can extend it later.
+
+==================================================
+3. SITEMAP & PAGES
+==================================================
+
+Design and implement the site around this core sitemap:
+
+1. Home:          `/`
+2. Products:      `/products`
+   - MIG Flow:    `/products/mig-flow`
+   - MIG Scout:   `/products/mig-scout`
+   - MIG AI Desk: `/products/mig-ai-desk`
+   - MIG Learn (Academy): `/products/mig-learn`
+3. Academy:       `/academy`
+   - Lesson details: `/academy/[slug]`
+4. Blog:          `/blog`
+   - Post details:   `/blog/[slug]`
+5. Resources:     `/resources`
+6. About:         `/about`
+7. Contact:       `/contact`
+
+You may adjust URLs slightly if needed for a clean Next.js App Router structure, but keep the idea.
+
+Page requirements (copy + structure):
+
+--------------------------------------
+HOME `/`
+--------------------------------------
+Goal: Immediately explain what MIG is and guide people to Products, Blog, and Academy.
+
+Sections:
+- Hero:
+  - Main tagline (e.g., “Turn your mind into gear.”)
+  - Short 1–2 sentence description about AI, automation, and systems.
+  - Primary CTA button: “Explore MIG Products”
+  - Secondary CTA: “Talk to us” → link to Contact.
+
+- “What we build” (3 cards):
+  - MIG Flow → workflow automation
+  - MIG Scout → scraping & data tools
+  - MIG AI Desk → AI agents & chatbots
+  - Small copy for each, 2–3 lines, with clear outcomes.
+
+- “Why MindIsGear?”:
+  - 3–4 bullets like:
+    - We build working systems, not just slides.
+    - You own your data and infrastructure.
+    - We ship fast and iterate with you.
+    - Clear communication and documentation.
+
+- “Use cases”:
+  - 3–4 examples (e.g. “Wholesalers & distributors”, “Travel & tours”, “Online platforms/marketplaces”, “Internal ops teams”).
+  - Each with 2 lines of what we can do.
+
+- “From idea to system” process:
+  - 4-step process with simple icons:
+    1. Map your process.
+    2. Design the system.
+    3. Build & integrate.
+    4. Monitor & improve.
+
+- Blog & Academy teaser:
+  - Showcase 2–3 latest blog posts.
+  - Showcase 2–3 top academy lessons / resources.
+
+--------------------------------------
+PRODUCTS `/products`
+--------------------------------------
+Goal: Overview of all MIG products, with quick comparison.
+
+- Intro: short explanation of “MIG tools” concept.
+- A comparison grid or cards for:
+  - MIG Flow
+  - MIG Scout
+  - MIG AI Desk
+  - MIG Learn (Academy as a “product” for learning)
+
+For each:
+- Short 1–2 sentence pitch.
+- Key features (bullet list, 3–5 items).
+- Ideal customer.
+- CTA button linking to detail page.
+
+--------------------------------------
+MIG Flow `/products/mig-flow`
+--------------------------------------
+- Positioning: “Automate your workflows.”
+- Explain what it is: automation workflows using no-code (n8n, Make, Zapier) + custom scripts.
+- Sections:
+  - Who it’s for.
+  - Typical workflows we automate (examples).
+  - How the engagement works (discovery → prototype → rollout).
+  - FAQs.
+  - CTA to Contact.
+
+--------------------------------------
+MIG Scout `/products/mig-scout`
+--------------------------------------
+- Positioning: “We scrape and structure the data you need.”
+- Explain scraping, data pipelines, dashboards.
+- Sections:
+  - Types of data we collect.
+  - Example pipelines (product prices, leads, market research).
+  - Tech we use.
+  - Data quality / anti-ban strategies (high-level).
+  - CTA to Contact.
+
+--------------------------------------
+MIG AI Desk `/products/mig-ai-desk`
+--------------------------------------
+- Positioning: “AI agents & chatbots that actually understand your business.”
+- Sections:
+  - Use cases: support bots, internal knowledge bots, process assistants.
+  - Example tools: retrieval-augmented bots, voice agents, etc.
+  - High-level architecture (LLMs + tools).
+  - What we deliver (bot, admin panel, logging, etc.).
+  - CTA.
+
+--------------------------------------
+MIG Learn `/products/mig-learn`
+--------------------------------------
+- Positioning: “Learn to build systems like we do.”
+- This page bridges to /academy.
+- Sections:
+  - Explanation of the Academy.
+  - Types of content: deep dives, guides, templates, code snippets.
+  - Who it’s for: devs, tech founders, ops people.
+  - Highlight a few key lessons/resources.
+
+--------------------------------------
+ACADEMY `/academy`
+--------------------------------------
+- Purpose: Free or paid learning hub.
+- Built as static content for now (no auth; just public lessons).
+
+Include:
+- Intro section: what the Academy is.
+- List lessons in categories, e.g.:
+  - Automation
+  - Scraping & data
+  - AI agents
+  - Systems thinking
+
+For now, create:
+- 4–6 sample lessons, each with:
+  - title
+  - short description
+  - category
+  - slug
+- Implement lesson detail page `/academy/[slug]` that reads from a data source (MDX or TS/JSON).
+
+Each lesson page should have:
+- Title, category tag.
+- TL;DR summary.
+- Body content with headings, bullet lists, and code blocks where appropriate.
+- “Related lessons” suggestions (static for now).
+
+--------------------------------------
+BLOG `/blog` and `/blog/[slug]`
+--------------------------------------
+- Blog index:
+  - List posts with title, excerpt, date, tags.
+  - Basic tag styling.
+
+- Post detail:
+  - Title, date, tags, reading time (approx).
+  - MDX content structure with headings, code snippets, callout boxes.
+
+Create at least 3 sample posts with real, useful content around topics like:
+- “How to turn a messy process into an automation workflow”
+- “Scraping ethically and safely for your business”
+- “Using AI agents as teammates, not toys”
+
+--------------------------------------
+RESOURCES `/resources`
+--------------------------------------
+- Library of practical PDFs/links/checklists/templates.
+
+For now:
+- Make 4–6 sample resources, e.g.:
+  - “Automation Project Brief Template”
+  - “Pre-scraping checklist”
+  - “AI agent requirements checklist”
+
+Each resource:
+- Title, short description.
+- Type (template, checklist, article, etc.).
+- Link could be a dummy URL or on-site page.
+
+--------------------------------------
+ABOUT `/about`
+--------------------------------------
+- Tell the story of MindIsGear:
+  - Why “mind is gear”
+  - Short founder story (generic, but you can assume I’m a solo dev/automation builder who has built scrapers, SaaS, bots, etc.).
+  - Values: transparency, simplicity, shipping real things.
+
+--------------------------------------
+CONTACT `/contact`
+--------------------------------------
+- Simple contact form UI (no backend, just front-end for now).
+- Show email placeholder.
+- Show optional WhatsApp/Telegram placeholder.
+- A few lines encouraging people to send either a short idea or a messy loom/video/voice note.
+
+==================================================
+4. DESIGN & UX GUIDELINES
+==================================================
+
+Visual style:
+- Modern, minimal, techy but warm.
+- Background: mostly light (white / very light grey).
+- Accent color: choose a single strong accent (e.g., deep blue, purple, or teal) and stick to it.
+- Rounded corners, soft shadows, ample whitespace.
+
+Components:
+- Consistent layout with:
+  - Navbar (logo + nav links: Home, Products, Academy, Blog, Resources, About, Contact).
+  - Footer with:
+    - short brand line
+    - quick links
+    - email and social placeholders
+
+- Hero sections with:
+  - large heading
+  - subheading
+  - primary and secondary CTAs.
+
+- Cards for products, blog posts, lessons, resources.
+
+UX:
+- Responsive for mobile, tablet, desktop.
+- Good typography hierarchy: clear headings, subheadings, body text.
+- Avoid clutter.
+
+==================================================
+5. IMPLEMENTATION TASKS
+==================================================
+
+I want you to work in clear PHASES and talk to me like a collaborator.
+
+PHASE 1: HIGH-LEVEL PLAN
+- Summarize:
+  - Final sitemap.
+  - Chosen stack and reasons (short).
+  - Content model:
+    - where blog posts live
+    - where academy lessons live
+    - where resources data lives
+- Show a proposed folder structure (tree) for the Next.js app:
+  - `app/` routes
+  - `components/`
+  - `content/` or `data/` for blog/academy/resources
+  - `lib/` for utilities
+- Ask me if I want to adjust anything before code. (If I don’t respond, assume “go ahead”.)
+
+PHASE 2: PROJECT SCAFFOLDING
+- Provide:
+  - `package.json` core dependencies.
+  - Tailwind setup (tailwind.config, postcss config) with minimal needed config.
+  - `next.config` (if you need anything special).
+  - Base layout in `app/layout.tsx` including:
+    - global `<html>` & `<body>`
+    - base font
+    - `<Navbar />` and `<Footer />` usage.
+  - `app/page.tsx` initial Home page skeleton reflecting sections.
+
+PHASE 3: CORE COMPONENTS
+- Implement reusable components:
+  - Navbar
+  - Footer
+  - Hero
+  - Section wrapper
+  - Product cards
+  - Blog card
+  - Lesson/resource cards
+  - Callout boxes
+
+Use TypeScript types for props where helpful.
+
+PHASE 4: CONTENT & ROUTES
+- Implement routes and pages for:
+  - /products and each product detail.
+  - /academy and /academy/[slug].
+  - /blog and /blog/[slug].
+  - /resources.
+  - /about.
+  - /contact (form UI only).
+
+- For content:
+  - Create a small content system:
+    - Option A: MDX files loaded via next-mdx.
+    - Option B: Static TS/JSON arrays exported from `data/` folder.
+  - You can choose whichever is simplest and clearly explain your choice.
+
+- Write REALISTIC sample content (not lorem ipsum), based on the brand context above, especially for:
+  - 3 blog posts.
+  - 4–6 academy lessons (titles + full article content for at least 2–3).
+  - 4–6 resources (with short descriptions).
+  - All main product pages.
+
+PHASE 5: SEO, META, & DX
+- Show how to set:
+  - Metadata (title, description) per page or via Next.js metadata API.
+  - Open Graph tags (basic).
+- Add a simple `README.md` explaining:
+  - How to install dependencies.
+  - Commands to run dev server, build, and export/deploy.
+- Suggest improvements for:
+  - Accessibility (headings, alt text).
+  - Performance (image usage, loading).
+
+PHASE 6: FINAL REVIEW
+- Summarize:
+  - File structure.
+  - How to extend the blog and academy with more content.
+  - Suggestions for future features (contact form backend, newsletter signup, login for premium academy content, etc.).
+
+==================================================
+6. OUTPUT STYLE & CONSTRAINTS
+==================================================
+
+General rules for your responses:
+- Be explicit and organized.
+- Use clear headings and code blocks.
+- When you show a directory tree, use a nice tree-style format.
+- When showing code, include the filename above each snippet like:
+  - `// app/page.tsx`
+- Don’t flood with completely repetitive boilerplate; for repeated patterns, you may say “repeat the same pattern as in X, with changed Y and Z fields” where appropriate, but PLEASE still fully implement at least one example of each type:
+  - one blog post file
+  - one academy lesson file
+  - one resource file (if separate)
+  - one product page template in full.
+
