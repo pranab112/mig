@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Hostinger deployment script for Next.js static export
+echo "Starting Next.js deployment..."
+
+# Install Node.js dependencies
+echo "Installing dependencies..."
+npm install
+
+# Build the static export
+echo "Building Next.js static export..."
+npm run build
+
+# Copy built files to public_html (if needed)
+echo "Static files generated in ./out directory"
+echo "Deployment completed successfully!"
+
+# List generated files
+ls -la out/
