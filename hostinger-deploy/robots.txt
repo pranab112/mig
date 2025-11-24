@@ -1,9 +1,0 @@
-User-Agent: *
-Allow: /
-Disallow: /api/
-Disallow: /_next/
-Disallow: /admin/
-Disallow: /.well-known/
-
-Host: https://mindisgear.com
-Sitemap: https://mindisgear.com/sitemap.xml
