@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { footerNavigation } from '@/data/navigation'
-import { Mail, Twitter, Github, Linkedin } from 'lucide-react'
+import { Mail, Twitter, Github, Linkedin, Phone } from 'lucide-react'
 
 export function Footer() {
   return (
@@ -38,7 +38,7 @@ export function Footer() {
               Turn your mind into gear. We transform ideas into working systems — from brainwave to bot.
             </p>
             <div className="flex space-x-6">
-              <a href="mailto:hello@mindisgear.com" className="text-slate-400 hover:text-slate-300">
+              <a href="mailto:mindisgear@gmail.com" className="text-slate-400 hover:text-slate-300">
                 <span className="sr-only">Email</span>
                 <Mail className="h-6 w-6" />
               </a>
@@ -94,7 +94,20 @@ export function Footer() {
                 <h3 className="text-sm font-semibold leading-6 text-white">Contact</h3>
                 <div className="mt-6 space-y-4">
                   <div className="text-sm text-slate-300">
-                    <p>Email: hello@mindisgear.com</p>
+                    <p className="flex items-center gap-2">
+                      <Mail className="h-4 w-4" />
+                      <a href="mailto:mindisgear@gmail.com" className="hover:text-white transition-colors">
+                        mindisgear@gmail.com
+                      </a>
+                    </p>
+                  </div>
+                  <div className="text-sm text-slate-300">
+                    <p className="flex items-center gap-2">
+                      <Phone className="h-4 w-4" />
+                      <a href="tel:+9779847876077" className="hover:text-white transition-colors">
+                        +977 9847876077
+                      </a>
+                    </p>
                   </div>
                   <div className="text-sm text-slate-300">
                     <p>Quick chat: Send us a voice note or loom</p>
