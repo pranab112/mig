@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import DOMPurify from 'dompurify'
+import DOMPurify from 'isomorphic-dompurify'
 
 interface MarkdownRendererProps {
   content: string

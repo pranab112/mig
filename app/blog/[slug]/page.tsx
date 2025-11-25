@@ -2,21 +2,10 @@ import { notFound } from 'next/navigation'
 import { getAllBlogPosts, getBlogPost, calculateReadTime } from '@/lib/mdx'
 import { Calendar, Clock, User, ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
-import DOMPurify from 'dompurify'
-import { JSDOM } from 'jsdom'
+import DOMPurify from 'isomorphic-dompurify'
 
-// Safe HTML sanitization for server-side rendering
+// Safe HTML sanitization for both server and client
 function sanitizeHtml(html: string): string {
-  if (typeof window === 'undefined') {
-    // Server-side: use JSDOM
-    const window = new JSDOM('').window
-    const DOMPurifyServer = DOMPurify(window as any)
-    return DOMPurifyServer.sanitize(html, {
-      ALLOWED_TAGS: ['p', 'br', 'strong', 'em', 'u', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'ol', 'li', 'blockquote', 'code', 'pre', 'a', 'img'],
-      ALLOWED_ATTR: ['href', 'src', 'alt', 'title', 'class', 'id']
-    })
-  }
-  // Client-side: use regular DOMPurify
   return DOMPurify.sanitize(html, {
     ALLOWED_TAGS: ['p', 'br', 'strong', 'em', 'u', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'ol', 'li', 'blockquote', 'code', 'pre', 'a', 'img'],
     ALLOWED_ATTR: ['href', 'src', 'alt', 'title', 'class', 'id']
