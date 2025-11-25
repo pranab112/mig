@@ -2,15 +2,6 @@ import { notFound } from 'next/navigation'
 import { getAllBlogPosts, getBlogPost, calculateReadTime } from '@/lib/mdx'
 import { Calendar, Clock, User, ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
-import DOMPurify from 'isomorphic-dompurify'
-
-// Safe HTML sanitization for both server and client
-function sanitizeHtml(html: string): string {
-  return DOMPurify.sanitize(html, {
-    ALLOWED_TAGS: ['p', 'br', 'strong', 'em', 'u', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'ol', 'li', 'blockquote', 'code', 'pre', 'a', 'img'],
-    ALLOWED_ATTR: ['href', 'src', 'alt', 'title', 'class', 'id']
-  })
-}
 
 interface BlogPostPageProps {
   params: Promise<{
@@ -19,122 +10,128 @@ interface BlogPostPageProps {
 }
 
 export async function generateStaticParams() {
-  const posts = getAllBlogPosts()
+  const posts = await getAllBlogPosts()
   return posts.map((post) => ({
     slug: post.slug,
   }))
 }
 
 export async function generateMetadata({ params }: BlogPostPageProps) {
-  const { slug } = await params
-  const post = getBlogPost(slug)
+  const resolvedParams = await params
+  const post = await getBlogPost(resolvedParams.slug)
 
   if (!post) {
     return {
-      title: 'Post Not Found - MindIsGear Blog',
+      title: 'Post Not Found',
+      description: 'The requested blog post could not be found.',
     }
   }
 
   return {
-    title: `${post.title} - MindIsGear Blog`,
+    title: `${post.title} | MindIsGear Blog`,
     description: post.excerpt,
+    authors: [{ name: post.author }],
     openGraph: {
       title: post.title,
       description: post.excerpt,
       type: 'article',
       publishedTime: post.date,
-      authors: [post.author || 'MindIsGear Team'],
-      tags: post.tags,
+      authors: [post.author],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
     },
   }
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
-  const { slug } = await params
-  const post = getBlogPost(slug)
+  const resolvedParams = await params
+  const post = await getBlogPost(resolvedParams.slug)
 
   if (!post) {
     notFound()
   }
 
-  const readTime = post.readTime || calculateReadTime(post.content)
-  const publishDate = new Date(post.date).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  })
+  const readTime = calculateReadTime(post.content)
 
   return (
-    <article className="py-16">
-      <div className="mx-auto max-w-4xl px-6 lg:px-8">
-        {/* Back navigation */}
-        <Link
-          href="/blog"
-          className="inline-flex items-center text-primary-600 hover:text-primary-700 mb-8 transition-colors"
-        >
-          <ArrowLeft className="w-4 h-4 mr-2" />
-          Back to blog
-        </Link>
+    <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      {/* Back to Blog Link */}
+      <Link
+        href="/blog"
+        className="inline-flex items-center gap-2 text-primary-600 hover:text-primary-700 mb-8 group"
+      >
+        <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-1" />
+        Back to Blog
+      </Link>
 
-        {/* Header */}
-        <header className="mb-8">
-          <div className="flex flex-wrap gap-2 mb-4">
+      {/* Article Header */}
+      <header className="mb-8">
+        <h1 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6">
+          {post.title}
+        </h1>
+
+        <div className="flex flex-wrap items-center gap-4 text-slate-600 mb-6">
+          <div className="flex items-center gap-2">
+            <User className="h-4 w-4" />
+            <span>{post.author}</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <Calendar className="h-4 w-4" />
+            <time dateTime={post.date}>
+              {new Date(post.date).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+              })}
+            </time>
+          </div>
+          <div className="flex items-center gap-2">
+            <Clock className="h-4 w-4" />
+            <span>{readTime}</span>
+          </div>
+        </div>
+
+        {post.tags && post.tags.length > 0 && (
+          <div className="flex flex-wrap gap-2">
             {post.tags.map((tag) => (
               <span
                 key={tag}
-                className="inline-flex items-center rounded-md bg-primary-50 px-3 py-1 text-sm font-medium text-primary-700 ring-1 ring-inset ring-primary-600/10"
+                className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-primary-100 text-primary-800"
               >
                 {tag}
               </span>
             ))}
           </div>
+        )}
+      </header>
 
-          <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl mb-6 text-balance">
-            {post.title}
-          </h1>
 
-          {post.excerpt && (
-            <p className="text-xl text-slate-600 leading-relaxed mb-6 text-balance">
-              {post.excerpt}
-            </p>
-          )}
-
-          <div className="flex items-center space-x-6 text-sm text-slate-500">
-            <div className="flex items-center space-x-2">
-              <User className="w-4 h-4" />
-              <span>{post.author || 'MindIsGear Team'}</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Calendar className="w-4 h-4" />
-              <time dateTime={post.date}>{publishDate}</time>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Clock className="w-4 h-4" />
-              <span>{readTime}</span>
-            </div>
-          </div>
-        </header>
-
-        {/* Content */}
-        <div className="prose prose-lg prose-slate max-w-none prose-headings:text-slate-900 prose-a:text-primary-600 hover:prose-a:text-primary-700 prose-code:text-slate-800 prose-code:bg-slate-100 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-pre:bg-slate-900 prose-pre:text-slate-100">
-          <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(post.content) }} />
-        </div>
-
-        {/* Footer */}
-        <footer className="mt-16 pt-8 border-t border-slate-200">
-          <div className="text-center">
-            <h3 className="text-lg font-semibold text-slate-900 mb-4">
-              Ready to turn your ideas into systems?
-            </h3>
-            <Link
-              href="/contact"
-              className="inline-flex items-center justify-center rounded-md bg-primary-600 px-6 py-3 text-base font-medium text-white hover:bg-primary-700 transition-colors"
-            >
-              Let's talk about your project
-            </Link>
-          </div>
-        </footer>
+      {/* Article Content */}
+      <div className="prose prose-lg prose-slate max-w-none">
+        <div dangerouslySetInnerHTML={{ __html: post.content }} />
       </div>
+
+      {/* Article Footer */}
+      <footer className="mt-12 pt-8 border-t border-slate-200">
+        <div className="flex justify-between items-center">
+          <Link
+            href="/blog"
+            className="text-primary-600 hover:text-primary-700 font-medium"
+          >
+            ← View All Posts
+          </Link>
+          <div className="text-sm text-slate-600">
+            Published on {new Date(post.date).toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            })}
+          </div>
+        </div>
+      </footer>
     </article>
   )
 }
