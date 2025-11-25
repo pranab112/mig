@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import { MDXRemote } from 'next-mdx-remote/rsc'
+import { serialize } from 'next-mdx-remote/serialize'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
@@ -213,7 +214,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
   const { frontmatter } = course
   const sections = splitContentIntoSections(course.content)
 
-  // Pass raw sections to client component for rendering
+  // Render markdown sections to HTML for client component
   const renderedSections = {
     overview: sections.overview || '',
     curriculum: sections.curriculum || '',

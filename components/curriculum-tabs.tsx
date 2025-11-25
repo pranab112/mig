@@ -18,6 +18,7 @@ import {
   ArrowUp,
   ChevronRight
 } from 'lucide-react'
+import MarkdownRenderer from './markdown-renderer'
 
 interface CurriculumTabsProps {
   renderedSections: {
@@ -86,33 +87,23 @@ export default function CurriculumTabs({ renderedSections }: CurriculumTabsProps
       {/* Tab Content */}
       <div className="max-w-none">
         {activeTab === 'overview' && (
-          <div className="prose prose-xl max-w-none">
-            <pre className="whitespace-pre-wrap font-sans">{renderedSections.overview}</pre>
-          </div>
+          <MarkdownRenderer content={renderedSections.overview} />
         )}
 
         {activeTab === 'curriculum' && (
-          <div className="prose prose-xl max-w-none">
-            <pre className="whitespace-pre-wrap font-sans">{renderedSections.curriculum}</pre>
-          </div>
+          <MarkdownRenderer content={renderedSections.curriculum} />
         )}
 
         {activeTab === 'outcomes' && (
-          <div className="prose prose-xl max-w-none">
-            <pre className="whitespace-pre-wrap font-sans">{renderedSections.outcomes}</pre>
-          </div>
+          <MarkdownRenderer content={renderedSections.outcomes} />
         )}
 
         {activeTab === 'audience' && (
-          <div className="prose prose-xl max-w-none">
-            <pre className="whitespace-pre-wrap font-sans">{renderedSections.audience}</pre>
-          </div>
+          <MarkdownRenderer content={renderedSections.audience} />
         )}
 
         {activeTab === 'investment' && (
-          <div className="prose prose-xl max-w-none">
-            <pre className="whitespace-pre-wrap font-sans">{renderedSections.investment}</pre>
-          </div>
+          <MarkdownRenderer content={renderedSections.investment} />
         )}
       </div>
 

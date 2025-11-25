@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { navigation } from '@/data/navigation'
 import { Menu, X, ChevronDown, Sparkles } from 'lucide-react'
 import { clsx } from 'clsx'
@@ -18,13 +19,29 @@ export function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-3 group">
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl blur-lg opacity-75 group-hover:opacity-100 transition-opacity"></div>
-                <div className="relative flex items-center justify-center w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl shadow-lg transform transition-transform group-hover:scale-110">
-                  <span className="text-white font-bold text-2xl">M</span>
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl blur-lg opacity-0 group-hover:opacity-50 transition-opacity"></div>
+                <div className="relative flex items-center justify-center w-12 h-12 bg-white rounded-xl shadow-lg transform transition-transform group-hover:scale-110">
+                  {/* Brain-Gear Logo */}
+                  <Image
+                    src="/images/mig-logo-icon.svg"
+                    alt="MindIsGear Logo"
+                    width={40}
+                    height={40}
+                    className="object-contain"
+                    priority
+                  />
                 </div>
               </div>
               <div className="hidden sm:block">
-                <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">MindIsGear</span>
+                {/* Text Logo */}
+                <Image
+                  src="/images/mig-logo-text.svg"
+                  alt="MindIsGear"
+                  width={120}
+                  height={40}
+                  className="object-contain"
+                  priority
+                />
                 <div className="text-xs text-slate-400 font-medium tracking-wider">INNOVATIVE SOLUTIONS</div>
               </div>
             </Link>
@@ -110,13 +127,27 @@ export function Navbar() {
             <div className="flex items-center justify-between">
               <Link href="/" className="flex items-center space-x-3" onClick={() => setMobileMenuOpen(false)}>
                 <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl blur-lg opacity-75"></div>
-                  <div className="relative flex items-center justify-center w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl shadow-lg">
-                    <span className="text-white font-bold text-2xl">M</span>
+                  <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl blur-lg opacity-0"></div>
+                  <div className="relative flex items-center justify-center w-12 h-12 bg-white rounded-xl shadow-lg">
+                    <Image
+                      src="/images/mig-logo-icon.png"
+                      alt="MindIsGear Logo"
+                      width={40}
+                      height={40}
+                      className="object-contain"
+                      priority
+                    />
                   </div>
                 </div>
                 <div>
-                  <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">MindIsGear</span>
+                  <Image
+                    src="/images/mig-logo-text.png"
+                    alt="MindIsGear"
+                    width={120}
+                    height={40}
+                    className="object-contain"
+                    priority
+                  />
                   <div className="text-xs text-slate-400 font-medium tracking-wider">INNOVATIVE SOLUTIONS</div>
                 </div>
               </Link>

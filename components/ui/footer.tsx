@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { footerNavigation } from '@/data/navigation'
 import { Mail, Twitter, Github, Linkedin } from 'lucide-react'
 
@@ -12,13 +13,25 @@ export function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             {/* Logo and tagline */}
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="flex items-center justify-center w-10 h-10 bg-primary-600 rounded-lg">
-                <span className="text-white font-bold text-xl">M</span>
+            <Link href="/" className="flex items-center space-x-3">
+              <div className="flex items-center justify-center w-12 h-12 bg-white rounded-lg p-1">
+                <Image
+                  src="/images/mig-logo-icon.svg"
+                  alt="MindIsGear Logo"
+                  width={40}
+                  height={40}
+                  className="object-contain"
+                />
               </div>
               <div>
-                <span className="text-xl font-bold text-white">MindIsGear</span>
-                <div className="text-xs text-slate-400 font-medium">MIG</div>
+                <Image
+                  src="/images/mig-logo-text.svg"
+                  alt="MindIsGear"
+                  width={100}
+                  height={32}
+                  className="object-contain brightness-0 invert"
+                />
+                <div className="text-xs text-slate-400 font-medium">INNOVATIVE SOLUTIONS</div>
               </div>
             </Link>
             <p className="text-sm leading-6 text-slate-300">
